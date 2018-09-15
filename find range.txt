@@ -1,0 +1,10 @@
+function findRange (array,firstNumber, secondNumber){
+for (let item of array){
+if(item.length>=6 && item.length<=9){
+console.log(item);
+}
+}
+}
+
+let names =["dsfdfdfd", "dfdfdf"];
+findRange(names,6,9)

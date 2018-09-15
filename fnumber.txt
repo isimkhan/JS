@@ -1,0 +1,13 @@
+let massive =[4555,4541,552,445];
+
+
+
+function FindGZ(ms,number){
+for (let f of ms){
+if(f>number) 
+console.log (f)
+}};
+
+
+FindGZ (massive,552);
+

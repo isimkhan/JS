@@ -1,0 +1,7 @@
+function findNumbers(firstnumber, secondnumber,array){
+for(let item of array){
+if (item%firstnumber==0 && item%secondnumber==0){
+console.log(item);
+}
+}
+}
